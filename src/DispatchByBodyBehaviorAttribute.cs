@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ServiceModel.Description;
 using System.Xml;
 
-namespace Sodexo.Web.Services
+namespace Wsdl.AnnotationRestrictions
 {
     [AttributeUsage(AttributeTargets.Class|AttributeTargets.Interface)]
     sealed class DispatchByBodyBehaviorAttribute : Attribute, IContractBehavior

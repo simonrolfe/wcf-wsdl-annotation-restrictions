@@ -12,7 +12,7 @@ using System.Xml.Schema;
 using System.Xml.Serialization;
 using System.Runtime.Serialization;
 
-namespace Sodexo.Web.Services
+namespace Wsdl.AnnotationRestrictions
 {
     [AttributeUsage(AttributeTargets.Interface)]
     public class XSDGenerationAttribute : Attribute, IContractBehavior, IWsdlExportExtension

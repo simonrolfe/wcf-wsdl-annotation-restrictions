@@ -5,7 +5,7 @@ using System.ServiceModel.Channels;
 using System.ServiceModel.Dispatcher;
 using System.Xml;
 
-namespace Sodexo.Web.Services
+namespace Wsdl.AnnotationRestrictions
 {
 	class DispatchByBodyElementOperationSelector : IDispatchOperationSelector
 	{
